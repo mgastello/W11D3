@@ -7,6 +7,7 @@ function LightSwitch() {
   const handleClick = () => {
     setThemeName(themeName === 'day' ? 'night' : 'day')
   }
+  
   return (
     <div className={`light-switch ${themeName}`}>
       <div className="on" onClick={handleClick}>DAY</div>
